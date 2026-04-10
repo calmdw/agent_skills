@@ -31,6 +31,33 @@ Check that the content:
 - explicitly lists intentionally excluded project details
 - has minimal templates if templates materially improve reuse
 
+Use `PORTABILITY_CHECKLIST.md` before promoting content that started inside one
+project.
+
+## Update Skills vs Update Project Docs
+
+Update the Skill library when:
+
+- the reusable method changed
+- a checklist or template materially improves reuse
+- a cross-project boundary became clearer
+
+Update only project docs when:
+
+- the project changed but the method did not
+- the change is task-specific
+- the change is simulator-, controller-, trainer-, or cluster-specific
+- the change is about one project's naming history or compatibility surface
+
+## Preferred Flow For Returning Lessons From A Project
+
+1. confirm the lesson is stable inside the project
+2. decide whether it is reusable method or project fact
+3. run the portability checklist
+4. update the Skill library only if the lesson survives that filter
+
 ## Portability Standard
 
-A skill is ready to live here when it can be understood without first reading one project's README and when its stack-bound details are clearly labeled instead of presented as universal rules.
+A skill is ready to live here when it can be understood without first reading
+one project's README and when its stack-bound details are clearly labeled
+instead of presented as universal rules.
