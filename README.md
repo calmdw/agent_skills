@@ -27,7 +27,8 @@ into new projects. It is not the runtime documentation for any one project.
 2. Copy only those directories into the new project's `.codex/skills/`.
 3. Do not copy an entire old project or an entire old `.codex/` blindly.
 4. Write a project-specific `AGENTS.md` for that project.
-5. Keep project facts and stack-specific details in the new project's docs.
+5. Record which skill-library tag or commit the project imported.
+6. Keep project facts and stack-specific details in the new project's docs.
 
 ## Current Library Shape
 
@@ -37,6 +38,8 @@ This repository currently carries:
 - bundled templates inside those skill directories
 - repository-level docs that explain ordering, scope, portability, and
   maintenance
+- cross-cutting workflow skills such as `research-project-butler`, which route
+  project work without replacing technical skills
 
 Use `SKILL_INDEX.md` for the recommended order and the role of each skill.
 

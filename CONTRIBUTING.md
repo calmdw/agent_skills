@@ -41,6 +41,7 @@ Update the Skill library when:
 - the reusable method changed
 - a checklist or template materially improves reuse
 - a cross-project boundary became clearer
+- the change is large enough to justify a patch or minor version bump under `VERSIONING.md`
 
 Update only project docs when:
 
@@ -55,6 +56,10 @@ Update only project docs when:
 2. decide whether it is reusable method or project fact
 3. run the portability checklist
 4. update the Skill library only if the lesson survives that filter
+
+When the classification is unclear, use `research-project-butler` as the
+workflow frame to separate project fact from reusable method before updating
+this library.
 
 ## Portability Standard
 
