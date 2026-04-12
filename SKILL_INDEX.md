@@ -17,8 +17,15 @@
 - `paper-reproduction-audit`
   - ensure result packages are reproducible, auditable, and reportable
   - template support: yes
+- `research-project-butler`
+  - route ideas, debug work, experiment review, release planning, and reusable-method backflow in long-running research projects
+  - template support: yes
 
 ## Recommended Use Order
+
+`research-project-butler` is a cross-cutting workflow skill.
+Use it alongside the stages below when work needs routing, review, release
+planning, or backflow decisions. It is not a strict first-step technical skill.
 
 1. `rl-system-bootstrap`
    - use when project skeleton, config layering, and artifact flow are not yet stable
